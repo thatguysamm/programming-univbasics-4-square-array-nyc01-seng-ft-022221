@@ -1,10 +1,10 @@
 def square_array(array)
   count= 0
-
+  new_array= []
   while count<array.length do
-    array[count] ** 2
+    new_array<< array[count] ** 2
     count+=1
   end
-square_array(array)
+ new_array
 
 end
